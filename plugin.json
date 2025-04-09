@@ -1,7 +1,7 @@
 {
   "name": "siyuan-plugin-simple-search-plus",
   "author": "Ember_Sky",
-  "url": "https://github.com/Ember-Sky/simple-search-plus",
+  "url": "https://github.com/Ember-Sky/siyuan-plugin-simple-search-plus",
   "version": "0.2.2",
   "minAppVersion": "2.11.4",
   "backends": ["all"],
