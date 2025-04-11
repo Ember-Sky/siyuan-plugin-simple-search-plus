@@ -623,6 +623,12 @@ class SimpleSearch extends siyuan.Plugin {
             }
         }.bind(this);
 
+        // 不知道为什么刷新思源之后, 这些值会被替换, 因此, 每次启用插件的时候, 都检查一下
+        let his_arr = window.siyuan.storage['local-searchkeys'].keys;
+        his_arr = his_arr.filter(item => !item.includes(SQL_FLAG));
+        window.siyuan.storage['local-searchdata'].k = his_arr[0];
+        window.siyuan.storage['local-searchkeys'].keys = his_arr;
+
         this.eventBus.on("input-search", this.inputSearchEvent);
         this.eventBus.on("loaded-protyle-static", this.loadedProtyleStaticEvent);
 
