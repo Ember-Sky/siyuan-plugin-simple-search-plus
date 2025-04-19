@@ -1,5 +1,5 @@
 ### 写在前面
-* 本插件是在 简易搜索v0.2.2 的基础上进行魔改, 使用方法与原插件相同
+* 本插件是在 [简易搜索v0.2.2](https://github.com/choyy/simple-search) 的基础上进行魔改, 使用方法与原插件相同
 * 因此 如果你想捐赠, 请联系[原插件作者(chooyy)](https://github.com/choyy)或[点击这里捐赠](https://afdian.com/a/chooyy), 而不是我
 * 如果有bug, 请在链滴社区联系我([EmberSky](https://ld246.com/member/EmberSky)), 或者提[issue](https://github.com/Ember-Sky/siyuan-plugin-simple-search-plus/issues)(我不常看)
 * 写给chooyy大佬: 侵删
@@ -73,6 +73,14 @@
   原因: 点击保存按钮时, 不会处理新搜索框, 所以新搜索框也不好通过原搜索框的内容逆向解析出内容
 
   解决起来比较麻烦, 暂时不想处理
+
+### 更新日志
+### [2025/04/14_13:10:09] release v0.2.5
+* [修复] 刷新/重启思源后, 第一次打开全局搜索, 搜索内容会变成上次原搜索框的内容(sql语句)
+* [修改] 适配 原插件 到v0.2.5
+
+### [2025/04/10_13:03:31] release v0.2.2
+* [basic] 在 简易搜索v0.2.2 的基础上进行魔改
 
 ------
 下面是原readme
