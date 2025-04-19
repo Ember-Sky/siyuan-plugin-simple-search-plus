@@ -1,0 +1,21 @@
+{
+  "name": "siyuan-plugin-simple-search-plus",
+  "author": "Ember_Sky",
+  "url": "https://github.com/Ember-Sky/siyuan-plugin-simple-search-plus",
+  "version": "0.2.2",
+  "minAppVersion": "2.11.4",
+  "backends": ["all"],
+  "frontends": ["desktop", "desktop-window", "browser-desktop"],
+  "displayName": {
+    "default": "Simple Search Plus",
+    "zh_CN": "简易搜索 Plus"
+  },
+  "description": {
+    "default": "更高效的搜索方式, 在 简易搜索v0.2.2 的基础上, 进行魔改",
+    "zh_CN": "更高效的搜索方式, 在 简易搜索v0.2.2 的基础上, 进行魔改"
+  },
+  "readme": {
+    "default": "README.md",
+    "zh_CN": "README.md"
+  }
+}
